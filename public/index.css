@@ -1,0 +1,71 @@
+body {
+  background-image: url('blackjack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% 20%;
+}
+
+.gameMenu {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-top: -160px;
+  margin-left: -210px;
+  width: 410px;
+  height: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#question {
+  color: red;
+  font-size: 20px;
+  text-shadow: 1px 2px 8px #ff0000;
+}
+
+#cards,
+#sum {
+  color: blue;
+  font-size: 20px;
+  text-shadow: 1px 2px 8px blue;
+}
+
+#btn {
+  color: white;
+  background-color: green;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 130px;
+  border-width: 2px;
+  border-radius: 45px;
+  border-style: groove;
+  border-color: greenyellow;
+}
+
+#btn:hover,
+#btn-new:hover {
+  background-color: red;
+  border-color: fuchsia;
+}
+
+#btn-new {
+  color: white;
+  background-color: rgb(8, 107, 165);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 130px;
+  border-width: 2px;
+  border-radius: 45px;
+  border-style: groove;
+  border-color: blue;
+}
+
+#player {
+  color: rgb(38, 101, 238);
+  font-size: 18px;
+  text-shadow: 1px 2px 8px rgb(11, 46, 161);
+}
